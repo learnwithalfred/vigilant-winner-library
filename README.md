@@ -1,5 +1,7 @@
 # Ruby OOP School Library
 
+![library diagram](https://raw.githubusercontent.com/microverseinc/curriculum-ruby/main/oop/images/uml_class_diagram.png?token=GHSAT0AAAAAABVEITZQS7RVHK2PKM4C3L4UYZ2XOUQ)
+
 > In this project am building a school library in ruby
 
 ## Getting Started 🙌
@@ -33,4 +35,3 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
-# vigilant-winner-library
