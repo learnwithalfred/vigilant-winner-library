@@ -1,8 +1,8 @@
 require 'securerandom'
-require './nameable.rb'
-require './capitalize.rb'
-require './trimmer.rb'
-require './decorator.rb'
+require_relative 'nameable'
+require_relative 'capitalize'
+require_relative 'trimmer'
+require_relative 'decorator'
 
 class Person < Nameable
   attr_accessor :name, :age, :id
