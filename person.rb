@@ -5,7 +5,7 @@ require_relative 'trimmer'
 require_relative 'decorator'
 
 class Person < Nameable
-  attr_accessor :name, :age, :id
+  attr_accessor :name, :age, :rentals
   attr_reader :parent_permission
 
   def initialize(age, name = 'Unknown', parent_permission: true)
@@ -13,6 +13,7 @@ class Person < Nameable
     @age = age
     @parent_permission = parent_permission
     @id = SecureRandom.uuid
+    @rentals = []
     super()
   end
 
@@ -34,11 +35,3 @@ class Person < Nameable
 
   private :of_age?
 end
-
-person = Person.new(22, 'maximilianus')
-capitalized_person = CapitalizeDecorator.new(person)
-capitalized_trimmed_person = TrimmerDecorator.new(capitalized_person)
-
-puts person.correct_name
-puts capitalized_person.correct_name
-puts capitalized_trimmed_person.correct_name
