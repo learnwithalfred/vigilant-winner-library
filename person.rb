@@ -1,37 +1,32 @@
-require 'securerandom'
-require_relative 'nameable'
-require_relative 'capitalize'
-require_relative 'trimmer'
-require_relative 'decorator'
+require_relative 'rental'
 
-class Person < Nameable
-  attr_accessor :name, :age, :rentals
-  attr_reader :parent_permission
+class Person
+  attr_accessor :id, :name, :age, :type, :rentals
 
   def initialize(age, name = 'Unknown', parent_permission: true)
-    @name = name
+    @id = Random.rand(1...1000)
     @age = age
+    @name = name
     @parent_permission = parent_permission
-    @id = SecureRandom.uuid
     @rentals = []
-    super()
-  end
-
-  def of_age?
-    @age >= 18
-  end
-
-  def can_use_services?
-    of_age? || @parent_permission
-  end
-
-  def capitalize
-    @name.capitalize
+    @type = type
   end
 
   def correct_name
     @name
   end
 
-  private :of_age?
+  def can_use_services?
+    of_age? || @parent_permission
+  end
+
+  def add_rental(book, date)
+    Rental.new(date, self, book)
+  end
+
+  private
+
+  def of_age?
+    @age >= 18
+  end
 end
