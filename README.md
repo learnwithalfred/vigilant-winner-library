@@ -23,6 +23,12 @@ ruby main.rb
 - Twitter: [@kb_alfred](https://twitter.com/kb_alfred)
 - LinkedIn: [@learnwithalfred](https://www.linkedin.com/in/learnwithalfred/)
 
+👤 Eyasu Teshome
+
+- GitHub: [@EyasuTeshome](https://github.com/EyasuTeshome)
+- Twitter: [@EyasuTeshome](https://twitter.com/EyasuTeshome)
+- LinkedIn: [Eyasu Teshome](https://linkedin.com/in/EyasuTeshome)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
