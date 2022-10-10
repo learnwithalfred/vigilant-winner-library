@@ -29,6 +29,10 @@ ruby main.rb
 - Twitter: [@EyasuTeshome](https://twitter.com/EyasuTeshome)
 - LinkedIn: [Eyasu Teshome](https://linkedin.com/in/EyasuTeshome)
 
+👤 **Michael Adetunji**
+- GitHub: [@therealadetunji](https://github.com/therealadetunji)
+- Twitter: [@madetunji1376](https://twitter.com/madetunji1376)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
