@@ -1,12 +1,19 @@
 # Ruby OOP School Library
 
-![library diagram](https://raw.githubusercontent.com/microverseinc/curriculum-ruby/main/oop/images/uml_class_diagram.png?token=GHSAT0AAAAAABVEITZQS7RVHK2PKM4C3L4UYZ2XOUQ)
-
-> In this project am building a school library in ruby
+> In this project, you will start building a school library app. We will implement the classes to represent students and teachers.
 
 ## Getting Started 🙌
 
 To get a local copy up and running follow these simple example steps.
+
+```
+git clone https://github.com/learnwithalfred/vigilant-winner-library.git
+
+cd vigilant-winner-library
+
+ruby main.rb
+
+```
 
 ## Author
 
