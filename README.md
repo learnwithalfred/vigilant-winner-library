@@ -1,6 +1,11 @@
 # Ruby OOP School Library
 
-> In this project, you will start building a school library app. We will implement the classes to represent students and teachers.
+> This is a console app project which behaves as a school library. The user can add persons(students, teachers), add books, add rentals, list all books, list all persons/students/teachers and list all rentals by a given person's ID
+
+## Built With
+
+- Ruby
+
 
 ## Getting Started 🙌
 
@@ -51,4 +56,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./MIT.md) licensed
