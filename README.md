@@ -36,7 +36,7 @@ ruby main.rb
 
 👤 **Michael Adetunji**
 - GitHub: [@therealadetunji](https://github.com/therealadetunji)
-- Twitter: [@madetunji1376](https://twitter.com/madetunji1376)
+
 
 ## 🤝 Contributing
 
