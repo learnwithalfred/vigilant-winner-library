@@ -30,6 +30,7 @@ class App
     @book_list.each do |book|
       books << { title: book.title, author: book.author }
     end
+    # Persist data in local storage
     File.write('books.json', books.to_json)
   end
 
@@ -55,6 +56,7 @@ class App
                   person: { id: rent.person.id, name: rent.person.name, age: rent.person.age },
                   book: { title: rent.book.title, author: rent.book.author } }
     end
+    # Persist data in local storage
     File.write('rentals.json', rental.to_json)
     puts 'Rental successfully created!'
   end
@@ -94,6 +96,7 @@ class App
     @students.each do |std|
       student << { id: std.id, name: std.name, age: std.age, classroom: std.classroom }
     end
+    # Persist data in local storage
     File.write('students.json', student.to_json)
   end
 
@@ -104,6 +107,7 @@ class App
     @teachers.each do |tch|
       teacher << { id: tch.id, name: tch.name, age: tch.age, specialization: tch.specialization }
     end
+    # Persist data in local storage
     File.write('teachers.json', teacher.to_json)
   end
 
